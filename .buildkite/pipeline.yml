@@ -1,7 +1,7 @@
 steps:
   - name: "check"
     command: "bin/run"
-    parallelism: 1
+    parallelism: 2
     env:
       BUILDKITE_DOCKER_COMPOSE_CONTAINER: app
       BUILDKITE_DOCKER_COMPOSE_FILE: docker-compose.gc.yml
