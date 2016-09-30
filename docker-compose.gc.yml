@@ -1,0 +1,6 @@
+app:
+  build: .
+  dockerfile: Dockerfile.gc
+  volumes:
+    - .:/cwd
+    - /var/run/docker.sock:/var/run/docker.sock
